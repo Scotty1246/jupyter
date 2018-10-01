@@ -1,0 +1,235 @@
+[D 18:55:26.484 NotebookApp] Searching ['/home/scotty/jupyter', '/home/scotty/.jupyter', '/usr/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 18:55:26.485 NotebookApp] Looking for jupyter_config in /etc/jupyter
+[D 18:55:26.485 NotebookApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 18:55:26.485 NotebookApp] Looking for jupyter_config in /usr/etc/jupyter
+[D 18:55:26.486 NotebookApp] Looking for jupyter_config in /home/scotty/.jupyter
+[D 18:55:26.486 NotebookApp] Looking for jupyter_config in /home/scotty/jupyter
+[D 18:55:26.487 NotebookApp] Looking for jupyter_notebook_config in /etc/jupyter
+[D 18:55:26.487 NotebookApp] Looking for jupyter_notebook_config in /usr/local/etc/jupyter
+[D 18:55:26.488 NotebookApp] Looking for jupyter_notebook_config in /usr/etc/jupyter
+[D 18:55:26.488 NotebookApp] Looking for jupyter_notebook_config in /home/scotty/.jupyter
+[D 18:55:26.488 NotebookApp] Looking for jupyter_notebook_config in /home/scotty/jupyter
+[D 18:55:26.874 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/etc/jupyter/jupyter_notebook_config.json
+[D 18:55:26.875 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/local/etc/jupyter/jupyter_notebook_config.json
+[D 18:55:26.876 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/etc/jupyter/jupyter_notebook_config.json
+[D 18:55:26.877 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/home/scotty/.jupyter/jupyter_notebook_config.json
+[I 18:55:26.877 NotebookApp] Serving notebooks from local directory: /home/scotty/jupyter
+[I 18:55:26.878 NotebookApp] The Jupyter Notebook is running at:
+[I 18:55:26.878 NotebookApp] http://localhost:8888/?token=1f04f3375ecbb2076c675639884db2a7832f9bb346e08a96
+[I 18:55:26.878 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:55:26.878 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=1f04f3375ecbb2076c675639884db2a7832f9bb346e08a96
+[I 18:55:28.141 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[D 18:55:28.146 NotebookApp] Using contents: services/contents
+[D 18:55:28.395 NotebookApp] Path base/images/favicon.ico served from /usr/local/lib/python3.5/dist-packages/notebook/static/base/images/favicon.ico
+[D 18:55:28.397 NotebookApp] Path components/jquery-ui/themes/smoothness/jquery-ui.min.css served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css
+[D 18:55:28.397 NotebookApp] Path components/jquery-typeahead/dist/jquery.typeahead.min.css served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/jquery-typeahead/dist/jquery.typeahead.min.css
+[D 18:55:28.397 NotebookApp] Path style/style.min.css served from /usr/local/lib/python3.5/dist-packages/notebook/static/style/style.min.css
+[D 18:55:28.398 NotebookApp] Path components/es6-promise/promise.min.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/es6-promise/promise.min.js
+[D 18:55:28.398 NotebookApp] Path components/preact/index.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/preact/index.js
+[D 18:55:28.399 NotebookApp] Path components/proptypes/index.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/proptypes/index.js
+[D 18:55:28.399 NotebookApp] Path components/preact-compat/index.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/preact-compat/index.js
+[D 18:55:28.399 NotebookApp] Path components/requirejs/require.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/requirejs/require.js
+[D 18:55:28.400 NotebookApp] Path base/images/logo.png served from /usr/local/lib/python3.5/dist-packages/notebook/static/base/images/logo.png
+[D 18:55:28.409 NotebookApp] Path tree/js/main.min.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/tree/js/main.min.js
+[D 18:55:28.424 NotebookApp] 200 GET /tree?token=260af58934545a70c844b50ae528c2f886319d7d750d6fe9 (127.0.0.1) 284.32ms
+[3343:3343:1001/185528.681615:ERROR:gpu_process_transport_factory.cc(1007)] Lost UI shared context.
+[1:8:1001/185529.019246:ERROR:command_buffer_proxy_impl.cc(111)] ContextResult::kFatalFailure: Shared memory region is not valid
+[D 18:55:29.370 NotebookApp] Path custom.css served from /usr/local/lib/python3.5/dist-packages/notebook/static/custom/custom.css
+[D 18:55:29.371 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 1.84ms
+[D 18:55:30.106 NotebookApp] Path services/contents.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/services/contents.js
+[D 18:55:30.107 NotebookApp] 200 GET /static/services/contents.js?v=20181001185526 (127.0.0.1) 2.14ms
+[D 18:55:30.467 NotebookApp] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[D 18:55:30.470 NotebookApp] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[D 18:55:30.480 NotebookApp] Paths used for configuration of tree: 
+    	/usr/etc/jupyter/nbconfig/tree.json
+[D 18:55:30.482 NotebookApp] Paths used for configuration of tree: 
+    	/home/scotty/.jupyter/nbconfig/tree.json
+[D 18:55:30.482 NotebookApp] 200 GET /api/config/tree?_=1538434529954 (127.0.0.1) 17.88ms
+[D 18:55:30.494 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 18:55:30.494 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 18:55:30.495 NotebookApp] Paths used for configuration of common: 
+    	/usr/etc/jupyter/nbconfig/common.json
+[D 18:55:30.495 NotebookApp] Paths used for configuration of common: 
+    	/home/scotty/.jupyter/nbconfig/common.json
+[D 18:55:30.505 NotebookApp] 200 GET /api/config/common?_=1538434529955 (127.0.0.1) 21.19ms
+[D 18:55:30.534 NotebookApp] 200 GET /api/terminals?_=1538434529956 (127.0.0.1) 0.87ms
+[D 18:55:30.567 NotebookApp] Found kernel python3 in /usr/local/share/jupyter/kernels
+[D 18:55:30.572 NotebookApp] 200 GET /api/kernelspecs (127.0.0.1) 6.38ms
+[D 18:55:30.586 NotebookApp] 200 GET /api/sessions?_=1538434529957 (127.0.0.1) 2.04ms
+[D 18:55:30.596 NotebookApp] 200 GET /api/terminals?_=1538434529958 (127.0.0.1) 0.85ms
+[D 18:55:30.831 NotebookApp] 200 GET /api/contents?type=directory&_=1538434529959 (127.0.0.1) 2.88ms
+[D 18:55:30.845 NotebookApp] Path custom.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/custom/custom.js
+[D 18:55:30.846 NotebookApp] 200 GET /custom/custom.js?v=20181001185526 (127.0.0.1) 1.78ms
+[D 18:55:43.635 NotebookApp] Using contents: services/contents
+[D 18:55:43.911 NotebookApp] Path base/images/favicon-notebook.ico served from /usr/local/lib/python3.5/dist-packages/notebook/static/base/images/favicon-notebook.ico
+[D 18:55:43.917 NotebookApp] Path components/bootstrap-tour/build/css/bootstrap-tour.min.css served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/bootstrap-tour/build/css/bootstrap-tour.min.css
+[D 18:55:43.917 NotebookApp] Path components/codemirror/lib/codemirror.css served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/codemirror/lib/codemirror.css
+[D 18:55:43.918 NotebookApp] Path notebook/css/override.css served from /usr/local/lib/python3.5/dist-packages/notebook/static/notebook/css/override.css
+[D 18:55:44.478 NotebookApp] Path components/text-encoding/lib/encoding.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/text-encoding/lib/encoding.js
+[D 18:55:44.490 NotebookApp] Path notebook/js/main.min.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/notebook/js/main.min.js
+[D 18:55:44.509 NotebookApp] 200 GET /notebooks/intro.ipynb (127.0.0.1) 874.56ms
+[D 18:55:44.576 NotebookApp] Path components/MathJax/MathJax.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/MathJax.js
+[D 18:55:44.577 NotebookApp] 304 GET /static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (127.0.0.1) 1.38ms
+[D 18:55:44.615 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 1.14ms
+[D 18:55:44.761 NotebookApp] Path components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js
+[D 18:55:44.762 NotebookApp] 304 GET /static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.4 (127.0.0.1) 1.51ms
+[D 18:55:45.013 NotebookApp] Path components/MathJax/config/Safe.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/config/Safe.js
+[D 18:55:45.017 NotebookApp] 304 GET /static/components/MathJax/config/Safe.js?V=2.7.4 (127.0.0.1) 4.60ms
+[D 18:55:45.534 NotebookApp] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[D 18:55:45.535 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[D 18:55:45.537 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/etc/jupyter/nbconfig/notebook.json
+[D 18:55:45.545 NotebookApp] Paths used for configuration of notebook: 
+    	/home/scotty/.jupyter/nbconfig/notebook.json
+[D 18:55:45.546 NotebookApp] 200 GET /api/config/notebook?_=1538434545113 (127.0.0.1) 13.41ms
+[D 18:55:45.558 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 18:55:45.559 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 18:55:45.559 NotebookApp] Paths used for configuration of common: 
+    	/usr/etc/jupyter/nbconfig/common.json
+[D 18:55:45.560 NotebookApp] Paths used for configuration of common: 
+    	/home/scotty/.jupyter/nbconfig/common.json
+[D 18:55:45.568 NotebookApp] 200 GET /api/config/common?_=1538434545114 (127.0.0.1) 16.84ms
+[D 18:55:45.658 NotebookApp] Path components/MathJax/extensions/MathML/content-mathml.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/extensions/MathML/content-mathml.js
+[D 18:55:45.659 NotebookApp] 304 GET /static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.4 (127.0.0.1) 1.53ms
+[D 18:55:45.799 NotebookApp] Found kernel python3 in /usr/local/share/jupyter/kernels
+[D 18:55:45.801 NotebookApp] 304 GET /api/kernelspecs (127.0.0.1) 2.83ms
+[D 18:55:46.102 NotebookApp] 200 GET /api/contents/intro.ipynb?type=notebook&_=1538434545115 (127.0.0.1) 189.91ms
+[D 18:55:46.107 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js
+[D 18:55:46.116 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.4 (127.0.0.1) 10.07ms
+[D 18:55:46.118 NotebookApp] Path jupyter-js-widgets/extension.js served from /usr/local/share/jupyter/nbextensions/jupyter-js-widgets/extension.js
+[D 18:55:46.130 NotebookApp] 304 GET /custom/custom.js?v=20181001185526 (127.0.0.1) 1.55ms
+[D 18:55:46.163 NotebookApp] 200 GET /nbextensions/jupyter-js-widgets/extension.js?v=20181001185526 (127.0.0.1) 45.62ms
+[D 18:55:46.194 NotebookApp] Path components/MathJax/extensions/Safe.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/extensions/Safe.js
+[D 18:55:46.194 NotebookApp] 304 GET /static/components/MathJax/extensions/Safe.js?V=2.7.4 (127.0.0.1) 1.33ms
+[D 18:55:47.176 NotebookApp] Starting kernel: ['/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/run/user/1000/jupyter/kernel-8cef5886-2e96-4eab-916a-85943ce78635.json']
+[D 18:55:47.202 NotebookApp] Connecting to: tcp://127.0.0.1:59904
+[D 18:55:47.217 NotebookApp] Connecting to: tcp://127.0.0.1:41481
+[I 18:55:47.220 NotebookApp] Kernel started: 8cef5886-2e96-4eab-916a-85943ce78635
+[D 18:55:47.220 NotebookApp] Kernel args: {'cwd': '/home/scotty/jupyter', 'kernel_name': 'python3'}
+[D 18:55:47.238 NotebookApp] 201 POST /api/sessions (127.0.0.1) 142.01ms
+[D 18:55:47.265 NotebookApp] 200 GET /api/contents/intro.ipynb/checkpoints?_=1538434545116 (127.0.0.1) 15.76ms
+[D 18:55:47.266 NotebookApp] Path components/codemirror/mode/clike/clike.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/codemirror/mode/clike/clike.js
+[D 18:55:47.268 NotebookApp] 200 GET /static/components/codemirror/mode/clike/clike.js?v=20181001185526 (127.0.0.1) 2.73ms
+[D 18:55:48.008 NotebookApp] Initializing websocket connection /api/kernels/8cef5886-2e96-4eab-916a-85943ce78635/channels
+[D 18:55:48.010 NotebookApp] Requesting kernel info from 8cef5886-2e96-4eab-916a-85943ce78635
+[D 18:55:48.017 NotebookApp] Connecting to: tcp://127.0.0.1:59088
+[D 18:55:48.414 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js
+[D 18:55:48.415 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js?V=2.7.4 (127.0.0.1) 1.51ms
+[D 18:55:48.950 NotebookApp] Path components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Italic.woff served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Italic.woff
+[D 18:55:48.951 NotebookApp] 304 GET /static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Italic.woff?V=2.7.4 (127.0.0.1) 1.35ms
+[D 18:55:49.186 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:55:49.191 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:55:49.198 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:55:49.200 NotebookApp] Received kernel info: {'implementation': 'ipython', 'implementation_version': '6.5.0', 'language_info': {'version': '3.5.2', 'name': 'python', 'codemirror_mode': {'version': 3, 'name': 'ipython'}, 'pygments_lexer': 'ipython3', 'nbconvert_exporter': 'python', 'file_extension': '.py', 'mimetype': 'text/x-python'}, 'status': 'ok', 'help_links': [{'url': 'https://docs.python.org/3.5', 'text': 'Python Reference'}, {'url': 'https://ipython.org/documentation.html', 'text': 'IPython Reference'}, {'url': 'https://docs.scipy.org/doc/numpy/reference/', 'text': 'NumPy Reference'}, {'url': 'https://docs.scipy.org/doc/scipy/reference/', 'text': 'SciPy Reference'}, {'url': 'https://matplotlib.org/contents.html', 'text': 'Matplotlib Reference'}, {'url': 'http://docs.sympy.org/latest/index.html', 'text': 'SymPy Reference'}, {'url': 'https://pandas.pydata.org/pandas-docs/stable/', 'text': 'pandas Reference'}], 'banner': "Python 3.5.2 (default, Nov 23 2017, 16:37:01) \nType 'copyright', 'credits' or 'license' for more information\nIPython 6.5.0 -- An enhanced Interactive Python. Type '?' for help.\n", 'protocol_version': '5.1'}
+[I 18:55:49.200 NotebookApp] Adapting to protocol v5.1 for kernel 8cef5886-2e96-4eab-916a-85943ce78635
+[D 18:55:49.202 NotebookApp] 101 GET /api/kernels/8cef5886-2e96-4eab-916a-85943ce78635/channels?session_id=2622168955d644018cba4c5b575d98fd (127.0.0.1) 1194.35ms
+[D 18:55:49.202 NotebookApp] Opening websocket /api/kernels/8cef5886-2e96-4eab-916a-85943ce78635/channels
+[D 18:55:49.203 NotebookApp] Getting buffer for 8cef5886-2e96-4eab-916a-85943ce78635
+[D 18:55:49.203 NotebookApp] Connecting to: tcp://127.0.0.1:59088
+[D 18:55:49.206 NotebookApp] Connecting to: tcp://127.0.0.1:41481
+[D 18:55:49.209 NotebookApp] Connecting to: tcp://127.0.0.1:33014
+[D 18:55:49.293 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:55:49.303 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:55:49.483 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js
+[D 18:55:49.484 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js?V=2.7.4 (127.0.0.1) 1.70ms
+[D 18:55:49.523 NotebookApp] 304 GET /static/base/images/favicon-notebook.ico (127.0.0.1) 1.17ms
+[D 18:55:49.884 NotebookApp] Path components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff
+[D 18:55:49.885 NotebookApp] 304 GET /static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff?V=2.7.4 (127.0.0.1) 1.35ms
+[D 18:55:50.336 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Symbols/Regular/Main.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Symbols/Regular/Main.js
+[D 18:55:50.337 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Symbols/Regular/Main.js?V=2.7.4 (127.0.0.1) 2.04ms
+[D 18:55:50.571 NotebookApp] Path components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Symbols-Regular.woff served from /usr/local/lib/python3.5/dist-packages/notebook/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Symbols-Regular.woff
+[D 18:55:50.572 NotebookApp] 304 GET /static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Symbols-Regular.woff?V=2.7.4 (127.0.0.1) 1.43ms
+[D 18:55:51.344 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:55:51.359 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:07.052 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:07.064 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:09.690 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:09.707 NotebookApp] 304 GET /static/base/images/favicon-notebook.ico (127.0.0.1) 3.63ms
+[D 18:56:11.737 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:11.744 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:11.766 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:14.118 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:14.124 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:14.159 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: stream
+[D 18:56:14.166 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:20.225 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:20.228 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:20.349 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_result
+[D 18:56:20.362 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:24.290 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:24.296 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:24.315 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:29.656 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:29.659 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:29.674 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: stream
+[D 18:56:29.683 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:34.622 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:34.631 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:34.790 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_result
+[D 18:56:35.139 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: error
+[D 18:56:35.151 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:43.728 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:43.735 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:43.756 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:46.953 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:56:46.959 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_input
+[D 18:56:47.154 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: execute_result
+[D 18:56:47.472 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: error
+[D 18:56:47.484 NotebookApp] activity on 8cef5886-2e96-4eab-916a-85943ce78635: status
+[D 18:57:47.123 NotebookApp] 200 GET /api/contents/intro.ipynb?content=0&_=1538434545117 (127.0.0.1) 1.35ms
+[I 18:57:47.132 NotebookApp] Saving file at /intro.ipynb
+[D 18:57:47.132 NotebookApp] Saving /home/scotty/jupyter/intro.ipynb
+[D 18:57:47.391 NotebookApp] 200 PUT /api/contents/intro.ipynb (127.0.0.1) 261.76ms
+[D 19:02:37.556 NotebookApp] Using contents: services/contents
+[D 19:02:37.586 NotebookApp] Path auth/css/override.css served from /usr/local/lib/python3.5/dist-packages/notebook/static/auth/css/override.css
+[D 19:02:37.602 NotebookApp] 200 GET /logout (127.0.0.1) 46.39ms
+[D 19:02:37.633 NotebookApp] Websocket closed 8cef5886-2e96-4eab-916a-85943ce78635:2622168955d644018cba4c5b575d98fd
+[I 19:02:37.633 NotebookApp] Starting buffering for 8cef5886-2e96-4eab-916a-85943ce78635:2622168955d644018cba4c5b575d98fd
+[D 19:02:37.633 NotebookApp] Clearing buffer for 8cef5886-2e96-4eab-916a-85943ce78635
+[D 19:02:37.714 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 1.35ms
+[D 19:02:37.969 NotebookApp] Path auth/js/main.min.js served from /usr/local/lib/python3.5/dist-packages/notebook/static/auth/js/main.min.js
+[D 19:02:37.972 NotebookApp] 200 GET /static/auth/js/main.min.js?v=20181001185526 (127.0.0.1) 4.01ms
+[W 19:02:39.340 NotebookApp] Forbidden
+[W 19:02:39.344 NotebookApp] 403 GET /api/sessions?_=1538434529960 (127.0.0.1) 2.10ms referer=http://localhost:8888/tree
+[W 19:02:39.351 NotebookApp] Forbidden
+[W 19:02:39.351 NotebookApp] 403 GET /api/terminals?_=1538434529961 (127.0.0.1) 1.04ms referer=http://localhost:8888/tree
+[D 19:02:40.565 NotebookApp] Using contents: services/contents
+[D 19:02:40.567 NotebookApp] 304 GET /logout (127.0.0.1) 1.64ms
+[D 19:02:40.634 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 0.89ms
+[I 19:02:54.010 NotebookApp] interrupted
+Serving notebooks from local directory: /home/scotty/jupyter
+1 active kernel
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=1f04f3375ecbb2076c675639884db2a7832f9bb346e08a96
+Shutdown this notebook server (y/[n])? [I 19:03:12.461 NotebookApp] interrupted
+No answer for 5s: resuming operation...
+Serving notebooks from local directory: /home/scotty/jupyter
+1 active kernel
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=1f04f3375ecbb2076c675639884db2a7832f9bb346e08a96
+Shutdown this notebook server (y/[n])? [I 19:05:55.604 NotebookApp] interrupted
+No answer for 5s: resuming operation...
+Serving notebooks from local directory: /home/scotty/jupyter
+1 active kernel
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=1f04f3375ecbb2076c675639884db2a7832f9bb346e08a96
+Shutdown this notebook server (y/[n])? [C 19:05:56.591 NotebookApp] received signal 2, stopping
+[I 19:05:56.592 NotebookApp] Shutting down 1 kernel
+[I 19:05:57.600 NotebookApp] Kernel shutdown: 8cef5886-2e96-4eab-916a-85943ce78635
